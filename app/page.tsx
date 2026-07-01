@@ -1,8 +1,18 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <main className="flex h-screen items-center justify-center bg-[#111111]">
-      <div className="text-center select-none">
-        <h1 className="text-7xl md:text-9xl font-black tracking-[0.25em] text-[#d4af37] cursor-pointer transition duration-300 hover:scale-105 hover:text-white">
+    <main className="relative flex h-screen items-center justify-center bg-[#111111]">
+
+      <Image
+        src="/hero.jpg"
+        alt="background"
+        fill
+        className="object-cover opacity-40"
+      />
+
+      <div className="relative z-10 text-center select-none">
+        <h1 className="text-7xl md:text-9xl font-black tracking-[0.25em] text-[#d4af37] hover:scale-105 transition">
           SALES GUILD
         </h1>
 
@@ -10,6 +20,7 @@ export default function Home() {
           대한민국 원탑 세일즈 길드
         </p>
       </div>
+
     </main>
   );
 }
