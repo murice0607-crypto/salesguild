@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="relative h-screen flex items-center justify-center bg-gradient-to-br from-black via-[#0a0a0a] to-black">
+    <main className="relative h-screen flex items-center justify-center bg-black">
 
       <img
         src="/hero.jpg"
