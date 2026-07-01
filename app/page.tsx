@@ -5,7 +5,7 @@ export default function Home() {
     <main className="relative flex h-screen items-center justify-center bg-[#111111]">
 
       <Image
-        src="/hero.jpg"
+        src="/hero.png"
         alt="background"
         fill
         className="object-cover opacity-40"
