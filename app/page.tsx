@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <main
       onClick={() => router.push("/about")}
-      className="relative h-screen cursor-pointer"
+      className="relative h-screen cursor-pointer bg-black"
     >
       <img
         src="/hero.png"
-        className="absolute inset-0 w-full h-full object-contain bg-black"
+        className="absolute inset-0 w-full h-full object-contain"
       />
     </main>
   );
