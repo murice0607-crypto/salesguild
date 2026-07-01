@@ -1,18 +1,19 @@
-export default function Home() {
-  return (
-    <main className="relative h-screen flex justify-center items-end bg-black pb-20">
+"use client";
 
+import { useRouter } from "next/navigation";
+
+export default function Home() {
+  const router = useRouter();
+
+  return (
+    <main
+      onClick={() => router.push("/about")}
+      className="relative h-screen cursor-pointer"
+    >
       <img
         src="/hero.png"
-        className="absolute inset-0 w-full h-full object-cover opacity-50"
+        className="absolute inset-0 w-full h-full object-cover"
       />
-
-      <div className="relative z-10 text-center">
-        <h1 className="text-7xl font-black text-yellow-400">
-          SALES GUILD
-        </h1>
-      </div>
-
     </main>
   );
 }
