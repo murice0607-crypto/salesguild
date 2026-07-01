@@ -3,7 +3,7 @@ export default function Home() {
     <main className="relative h-screen flex items-center justify-center bg-black">
 
       <img
-        src="/hero.jpg"
+        src="/hero.png"
         className="absolute inset-0 w-full h-full object-cover opacity-50"
       />
 
