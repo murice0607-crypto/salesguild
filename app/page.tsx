@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="relative h-screen flex items-center justify-center bg-black">
+    <main className="relative h-screen flex justify-center items-end bg-black pb-20">
 
       <img
         src="/hero.png"
